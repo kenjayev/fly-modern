@@ -1,0 +1,42 @@
+.contact {
+  padding-top: 10px;
+  margin-bottom: 90px;
+}
+.contact__booking {
+  margin-top: 50px;
+  text-align: center;
+}
+.contact__booking .section__title {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+.contact__booking .section__subtitle {
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+.contact__direktor-name {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.contact__tel-number {
+  display: block;
+  margin-bottom: 0px;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.map {
+  height: 500px;
+}
+
+@media screen and (max-width: 780px) {
+  .map {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .map {
+    height: 300px;
+  }
+}

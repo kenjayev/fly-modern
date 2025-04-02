@@ -1,0 +1,175 @@
+{
+  "headerSection": {
+    "navList": {
+      "link1": "Главная",
+      "link2": "О нас",
+      "link3": "Туры",
+      "link4": "Свяжитесь с нами"
+    }
+  },
+  "bannerSection": {
+    "title": "ХОТИТЕ ПОПУТЕШЕСТВОВАТЬ?",
+    "desc": "Сделайте свои мечты о путешествиях реальностью: планируйте, исследуйте и создавайте незабываемые воспоминания.",
+    "link": "Узнать больше",
+    "bannerForm": {
+      "name": "Ваше имя...",
+      "location": "Введите место...",
+      "submitButton": "Забронировать"
+    }
+  },
+
+  "popularPlacesSection": {
+    "title": "Наши популярные направления",
+    "subtitle": "Откройте для себя красоту, культуру и впечатления, которые делают эти места по-настоящему уникальными.",
+    "popularPlacesList": {
+      "bookingCountText": "забронировано",
+      "item1": {
+        "name": "Стамбул"
+      },
+      "item2": {
+        "name": "Шарм-эль-Шейх"
+      },
+      "item3": {
+        "name": "Таиланд"
+      },
+      "item4": {
+        "name": "Аргентина"
+      },
+      "item5": {
+        "name": "Дубай"
+      },
+      "item6": {
+        "name": "Саудовская Аравия"
+      }
+    }
+  },
+  "visitCountrySection": {
+    "title": "Исследуйте направления легко",
+    "list": {
+      "item1": {
+        "title": "Дешевые билеты на поезд у нас",
+        "subtitle": "Весь мир",
+        "desc": "Отправьтесь в железнодорожное приключение и исследуйте места назначения по всему миру. Будь то живописные пейзажи, шумные города или культурные жемчужины, наши железнодорожные услуги предлагают уникальный и комфортный способ пересечь земной шар. Погрузитесь в красоту разных культур, все из которых доступны через нашу обширную железнодорожную сеть. ."
+      },
+      "item2": {
+        "title": "Откройте для себя захватывающие предложения по авиаперелетам",
+        "subtitle": "Глобальные направления",
+        "desc": "Отправьтесь в воздушное приключение и исследуйте места назначения по всему миру. Будь то захватывающие дух пейзажи, яркие города или культурные сокровища, наши авиаперевозки предоставляют удобный и захватывающий способ путешествовать по миру. Погрузитесь в богатство разнообразных культур, все легкодоступных через нашу обширную сеть авиаперевозок. ."
+      },
+      "item3": {
+        "title": "Дубай",
+        "subtitle": "Объединенные Арабские Эмираты",
+        "desc": "Дубай - город и эмират в Объединенных Арабских Эмиратах, известный своими роскошными магазинами, ультрасовременной архитектурой и оживленной ночной жизнью. Бурдж Халифа, башня высотой 830 м, владеет небоскребами города. У ее основания находится фонтан Дубая, струи и свет которого корректируются под музыку. На искусственных островах в море находится отель \"Атлантис, Пальм\", с аквапарком и парком морских животных."
+      },
+      "item4": {
+        "title": "Анталья",
+        "subtitle": "Турция",
+        "desc": "Анталья - самый быстрорастущий город в Турции, и туристы со всего мира открывают для себя его фантастическое сочетание великолепных пляжей и традиционной турецкой культуры. Дети полюбят Пляжный парк, где есть Акваленд (мечта любителя горок) и Дельфинарий (дом для дельфинов, морских львов и белых китов). Обязательно исследуйте старый центр города и посмотрите на Ворота Адриана."
+      },
+      "item5": {
+        "title": "Шарм-эль-Шейх",
+        "subtitle": "Египет",
+        "desc": "Шарм-эль-Шейх - центр туристической активности на полуострове Синаи, и здесь находятся лучшие места для дайвинга в мире. Особенно подводные чудеса национального парка Рас-Мухаммед, которые подняли город Шарм на совершенно новый уровень. В городе есть места для дайвинга и затонувшие корабли, которые привлекают продвинутых и любителей дайвинга со всего мира, чтобы открыть для себя уникальную морскую жизнь в глубинах Красного моря."
+      },
+      "item6": {
+        "title": "Стамбул",
+        "subtitle": "Турция",
+        "desc": "Стамбул - самый населенный город в Турции и его культурный, экономический и исторический центр. Расположенный в северо-западной части Турции, разделенный Босфором на европейскую и азиатскую стороны, который соединяет Мраморное море и Черное море. Этот город единственный в мире, который находится на двух континентах."
+      }
+    }
+  },
+  "blogSection": {
+    "title": "Bizning manzillarimizni kashf eting",
+    "subtitle": "Dubay, Turkiya, Sharm El Sheyhni biz bilan kashf eting",
+    "blogList": {
+      "item1": {
+        "title": "Dubayda hashamatni his eting",
+        "subtitle": "Shahar va sahro uyg'unligi",
+        "desc": "Dubayning osmono'par binolari, hashamatli xaridlari va cho'l sarguzashtlarining boyligidan zavqlaning. Madaniyat va isrofgarchilikning ajoyib uyg'unligini taklif qiluvchi an'analar zamonaviylikka mos keladigan shaharni o'rganing."
+      },
+      "item2": {
+        "title": "Turkiya madaniyatini kashf eting",
+        "subtitle": "Tarixiy mo'jizalar va hayratlanarli manzaralar",
+        "desc": "Turkiyaning qadimiy xarobalardan tortib jonli bozorlarigacha bo'lgan jozibali tarixiga sho'ng'ing. Turkiyani ziyorat qilish kerak bo'lgan manzilga aylantiradigan go'zal manzaralar, mazali taomlar va samimiy mehmondo'stlikdan rohatlaning."
+      },
+      "item3": {
+        "title": "Sharm El-Sheykhda dam oling",
+        "subtitle": "Quyosh, dengiz va osoyishtalik",
+        "desc": "Sharm al-Shayxning ajoyib plyajlari va marjon riflariga boring. Tiniq suvlarga sho'ng'ing, hashamatli dam olish maskanlarida dam oling va ushbu tropik jannatda eng yaxshi dam olishni his qiling."
+      }
+    }
+  },
+  "servicesSection": {
+    "title": "Bizning xizmatlar",
+    "subtitle": "Ishonch bilan kashf eting",
+    "servicesList": {
+      "item1": {
+        "title": "Sayohat tajribalari",
+        "desc": "Sizning xohishingizga moslashtirilgan yuqori sifatli tajribalarni ta'minlab, puxta ishlab chiqilgan sayohat marshrutlarini kashf eting. Mutaxassislar tomonidan tayyorlangan paketlarimiz unutilmas sarguzashtlarni kafolatlaydi."
+      },
+      "item2": {
+        "title": "Eng yaxshi marshrutlar",
+        "desc": "Sizning noyob qiziqishlaringiz va istaklaringizga mos keladigan to'liq moslashtirilgan sayohat rejalaridan rohatlaning. Biz sizning shaxsiy imtiyozlaringiz va sayohat intilishlaringizni aks ettiruvchi sayohatlarni yaratishga ixtisoslashganmiz."
+      },
+      "item3": {
+        "title": "Tayyor sayohat yo'nalishlari",
+        "desc": "Bizning paketlarimiz qulaylik, sarguzasht va madaniy suvga cho'milishning uzluksiz uyg'unligini ta'minlaydi va ajoyib sayohat tajribasini ta'minlaydi.."
+      }
+    }
+  },
+  "pricingSection": {
+    "title": "Maxsus Takliflar",
+    "subtitle": "O'zingiz orzu qilgan ta'tilni tanlang",
+    "pricingList": {
+      "subtitle": "Biz bilan bog'laning",
+      "text": "/individual",
+      "contactBtn": "Bog'lanish",
+      "item1": {
+        "title": "Asosiy Sayohatchi",
+        "plan1": "Moslashtirilgan Sayohat Rejasi",
+        "plan2": "Shakllantirilgan Manzil Qo'llanmalar",
+        "plan3": "Mutaxassis Bilan Sayohat Muhokamasi",
+        "plan4": "24/7 Xizmat Ko'rsatish",
+        "plan5": "Moslashuvchan Narxlar"
+      },
+      "item2": {
+        "title": "Premium Sayohatchi",
+        "plan1": "Luks Mekhmonxona Joylashuvi",
+        "plan2": "Maxsus Tajribalar",
+        "plan3": "Maxsus Yo'lboshlovchi",
+        "plan4": "Moslashtirilgan Sayohat Paketlari",
+        "plan5": "Muzokaralar uchun Narxlar"
+      },
+      "item3": {
+        "title": "Maksimal Sayohatchi",
+        "plan1": "VIP Sayohat Dasturi",
+        "plan2": "Maxsus Lyuks Tajribalar",
+        "plan3": "Moslashuvchan va Muzokaralar uchun Narxlar",
+        "plan4": "Ajoyib Taassurotlar"
+      }
+    }
+  },
+  "contactSection": {
+    "title": "Biz bilan o'z joyingizni band qiling!",
+    "subtitle": "Ta'tilingizni biz bilan o'tkazing",
+    "direktor": "Direktor: Nilufar Sadikova",
+    "bookingBtn": "Joy Band Qilish"
+  },
+  "footerSection": {
+    "desc": "Biz bilan dunyoni zabt eting. Sayohat tashkil qilishda eng yaxshi hamkoringiz",
+    "links": {
+      "title": "Foydali Havolalar",
+      "link1": "Blog",
+      "link2": "Biz bilan Aloqa",
+      "link3": "Biz Haqimizda",
+      "link4": "Maxfiylik Siyosati"
+    },
+    "contacts": {
+      "title": "Aloqa Ma'lumoti",
+      "desc": "Keyingi sayohatingizga tayyor bo'lib, shaxsiy sayohat yordam va so'rovnoma uchun biz bilan bog'laning.",
+      "contact1": "Telefon:",
+      "contact2": "Email:",
+      "contact3": "Manzil:"
+    }
+  }
+}
