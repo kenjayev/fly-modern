@@ -42,7 +42,7 @@ export default function Pricing() {
             </div>
             <div className="pricing__footer">
               <a className="pricing__btn" href="tel:+998974420308">
-                Bog'lanish
+                {t("pricingSection.pricingList.contactBtn")}
               </a>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Pricing() {
             </div>
             <div className="pricing__footer">
               <a className="pricing__btn" href="tel:+998974420308">
-                Bog'lanish
+                {t("pricingSection.pricingList.contactBtn")}
               </a>
             </div>
           </div>
@@ -113,11 +113,14 @@ export default function Pricing() {
                 <p className="pricing__plan">
                   {t("pricingSection.pricingList.item3.plan4")}
                 </p>
+                <p className="pricing__plan">
+                  {t("pricingSection.pricingList.item3.plan5")}
+                </p>
               </div>
             </div>
             <div className="pricing__footer">
               <a className="pricing__btn" href="tel:+998974420308">
-                Bog'lanish
+                {t("pricingSection.pricingList.contactBtn")}
               </a>
             </div>
           </div>

@@ -84,8 +84,7 @@ export default function Footer() {
                   {t("footerSection.contacts.contact3")}
                 </span>
                 <a href="#" className="footer__contact-link">
-                  Shayxontohur tumani, Jangoh mavzesi, 1-etaj 37-xonadon,
-                  Toshkent shahri
+                  {t("footerSection.contacts.contactAddress")}
                 </a>
               </li>
             </ul>

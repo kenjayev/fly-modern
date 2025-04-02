@@ -13,7 +13,7 @@
     "link": "Ko'proq bilish",
     "bannerForm": {
       "name": "Ismingiz...",
-      "location": "Manzilingiz...",
+      "telNumber": "Telefon raqamingiz...",
       "submitButton": "Joy Band Qilish"
     }
   },
@@ -80,7 +80,11 @@
   "blogSection": {
     "title": "Bizning manzillarimizni kashf eting",
     "subtitle": "Dubay, Turkiya, Sharm El Sheyhni biz bilan kashf eting",
+    "link1": "Learn More",
+    "link2": "Book Now",
     "blogList": {
+      "linkLearnMore": "Ko'proq bilish",
+      "LinkBookNow": "Band qilish",
       "item1": {
         "title": "Dubayda hashamatni his eting",
         "subtitle": "Shahar va sahro uyg'unligi",
@@ -114,6 +118,25 @@
         "title": "Tayyor sayohat yo'nalishlari",
         "desc": "Bizning paketlarimiz qulaylik, sarguzasht va madaniy suvga cho'milishning uzluksiz uyg'unligini ta'minlaydi va ajoyib sayohat tajribasini ta'minlaydi.."
       }
+    },
+    "planning": {
+      "title": "Orzuyingdagi sayohatni rejalashtiring",
+      "desc": "O'zingizning orzuingizdagi sayohatga chiqayotganingizda, har bir tafsilotga e'tibor qaratamiz. Bu madaniy qochish, sarguzashtli ekspeditsiya yoki sohilda dam olish bo'ladimi, biz muammosiz va unutilmas sayohat tajribasini ta'minlaymiz.",
+      "link": "Bog'lanish",
+      "planningList": {
+        "item1": {
+          "title": "Tajribali gidlar xizmati",
+          "desc": "Siz uchun mukammal marshrutni yaratishga ishtiyoqli sayohat bo'yicha mutaxassislarimizdan ko'rsatmalar oling. Manzil takliflaridan tortib sayohat maslahatlarigacha sayohatingizni ajoyib qilish uchun shu yerdamiz"
+        },
+        "item2": {
+          "title": "Moslashuvchan xizmatlar",
+          "desc": "Sayohat tajribangizni moslashtirilgan variantlar bilan moslang, sayohatingizning har bir jihati sizning afzalliklaringizga mos kelishini ta'minlang. Noyob uslubingizga mos keladigan turar joy, tadbirlar va boshqalarni tanlang."
+        },
+        "item3": {
+          "title": "24/7 Qo'llab quvvatlash",
+          "desc": "24/7 mijozlarni qo'llab-quvvatlash xizmati bilan xotirjamlikni his qiling. Rejalashtirish jarayonida savollaringiz bo'ladimi yoki sayohat paytida yordam kerakmi, bizning jamoamiz sizni qo'llab-quvvatlash uchun doimo shu yerda."
+        }
+      }
     }
   },
   "pricingSection": {
@@ -144,7 +167,8 @@
         "plan1": "VIP Sayohat Dasturi",
         "plan2": "Maxsus Lyuks Tajribalar",
         "plan3": "Moslashuvchan va Muzokaralar uchun Narxlar",
-        "plan4": "Ajoyib Taassurotlar"
+        "plan4": "Ajoyib Taassurotlar",
+        "plan5": "Bir umrlik sayohat a'zolik kartasi"
       }
     }
   },
@@ -152,7 +176,19 @@
     "title": "Biz bilan o'z joyingizni band qiling!",
     "subtitle": "Ta'tilingizni biz bilan o'tkazing",
     "direktor": "Direktor: Nilufar Sadikova",
-    "bookingBtn": "Joy Band Qilish"
+    "bookingBtn": "Joy Band Qilish",
+    "bookingModal": {
+      "title": "Joy Band Qilish",
+      "subtitle": "Keling, keyingi sayohatingizni rejalashtiramiz",
+      "name": "Ismingiz...",
+      "email": "Emailingiz...",
+      "telNumber": "Telefon raqamingiz...",
+      "aboutTrip": "Sayohat rejangiz haqida ayting...",
+      "booking": "Joy band qilish",
+      "contactUs": "Biz bilan bog'laning",
+      "partner": "Sizning sayohatdagi hamrohingiz",
+      "desc": "Dam olish uchun sayohatni biz bilan rejalashtiring. Bizning jamoa sizga yordam berishga tayyor."
+    }
   },
   "footerSection": {
     "desc": "Biz bilan dunyoni zabt eting. Sayohat tashkil qilishda eng yaxshi hamkoringiz",
@@ -168,7 +204,8 @@
       "desc": "Keyingi sayohatingizga tayyor bo'lib, shaxsiy sayohat yordam va so'rovnoma uchun biz bilan bog'laning.",
       "contact1": "Telefon:",
       "contact2": "Email:",
-      "contact3": "Manzil:"
+      "contact3": "Manzil:",
+      "contactAddress": "Shayxontohur tumani, Jangoh mavzesi, 1-etaj 37-xonadon, Toshkent shahri"
     }
   }
 }

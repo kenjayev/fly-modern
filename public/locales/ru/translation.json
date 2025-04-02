@@ -13,11 +13,10 @@
     "link": "Узнать больше",
     "bannerForm": {
       "name": "Ваше имя...",
-      "location": "Введите место...",
+      "telNumber": "Ваш номер телефона...",
       "submitButton": "Забронировать"
     }
   },
-
   "popularPlacesSection": {
     "title": "Наши популярные направления",
     "subtitle": "Откройте для себя красоту, культуру и впечатления, которые делают эти места по-настоящему уникальными.",
@@ -79,97 +78,138 @@
     }
   },
   "blogSection": {
-    "title": "Bizning manzillarimizni kashf eting",
-    "subtitle": "Dubay, Turkiya, Sharm El Sheyhni biz bilan kashf eting",
+    "title": "Исследуйте наши направления",
+    "subtitle": "Откройте для себя Дубай, Турцию и Шарм-эль-Шейх",
     "blogList": {
+      "linkLearnMore": "Узнать больше",
+      "LinkBookNow": "Забронировать сейчас",
       "item1": {
-        "title": "Dubayda hashamatni his eting",
-        "subtitle": "Shahar va sahro uyg'unligi",
-        "desc": "Dubayning osmono'par binolari, hashamatli xaridlari va cho'l sarguzashtlarining boyligidan zavqlaning. Madaniyat va isrofgarchilikning ajoyib uyg'unligini taklif qiluvchi an'analar zamonaviylikka mos keladigan shaharni o'rganing."
+        "title": "Опыт роскоши в Дубае",
+        "subtitle": "Городской пейзаж и не только",
+        "desc": "Погрузитесь в роскошь небоскребов Дубая, роскошные шопинги и приключения в пустыне. Исследуйте город, где традиции переплетаются с современностью, предлагая удивительное сочетание культуры и роскоши."
       },
       "item2": {
-        "title": "Turkiya madaniyatini kashf eting",
-        "subtitle": "Tarixiy mo'jizalar va hayratlanarli manzaralar",
-        "desc": "Turkiyaning qadimiy xarobalardan tortib jonli bozorlarigacha bo'lgan jozibali tarixiga sho'ng'ing. Turkiyani ziyorat qilish kerak bo'lgan manzilga aylantiradigan go'zal manzaralar, mazali taomlar va samimiy mehmondo'stlikdan rohatlaning."
+        "title": "Откройте богатство культуры Турции",
+        "subtitle": "Исторические чудеса и захватывающие пейзажи",
+        "desc": "Погрузитесь в захватывающую историю Турции, от древних руин до живописных рынков. Наслаждайтесь живописными пейзажами, вкусной кухней и теплым гостеприимством, которые делают Турцию обязательным к посещению направлением."
       },
       "item3": {
-        "title": "Sharm El-Sheykhda dam oling",
-        "subtitle": "Quyosh, dengiz va osoyishtalik",
-        "desc": "Sharm al-Shayxning ajoyib plyajlari va marjon riflariga boring. Tiniq suvlarga sho'ng'ing, hashamatli dam olish maskanlarida dam oling va ushbu tropik jannatda eng yaxshi dam olishni his qiling."
+        "title": "Отдых в раю Шарм-эль-Шейха",
+        "subtitle": "Солнце, море и умиротворение",
+        "desc": "Отправьтесь на потрясающие пляжи и коралловые рифы Шарм-эль-Шейха. Погрузитесь в кристально чистые воды, отдыхайте в роскошных курортах и почувствуйте абсолютное умиротворение в этом тропическом раю."
       }
     }
   },
   "servicesSection": {
-    "title": "Bizning xizmatlar",
-    "subtitle": "Ishonch bilan kashf eting",
+    "title": "Наши услуги",
+    "subtitle": "Исследуйте с уверенностью",
     "servicesList": {
       "item1": {
-        "title": "Sayohat tajribalari",
-        "desc": "Sizning xohishingizga moslashtirilgan yuqori sifatli tajribalarni ta'minlab, puxta ishlab chiqilgan sayohat marshrutlarini kashf eting. Mutaxassislar tomonidan tayyorlangan paketlarimiz unutilmas sarguzashtlarni kafolatlaydi."
+        "title": "Тщательно отобранные путешествия",
+        "desc": "Откройте для себя тщательно разработанные маршруты, обеспечивающие высококачественные впечатления, созданные с учетом ваших предпочтений. Наши экспертно созданные пакеты гарантируют незабываемые приключения."
       },
       "item2": {
-        "title": "Eng yaxshi marshrutlar",
-        "desc": "Sizning noyob qiziqishlaringiz va istaklaringizga mos keladigan to'liq moslashtirilgan sayohat rejalaridan rohatlaning. Biz sizning shaxsiy imtiyozlaringiz va sayohat intilishlaringizni aks ettiruvchi sayohatlarni yaratishga ixtisoslashganmiz."
+        "title": "Индивидуальные маршруты",
+        "desc": "Наслаждайтесь полностью настраиваемыми планами путешествий, которые соответствуют вашим уникальным интересам и желаниям. Мы специализируемся на создании путешествий, отражающих ваши индивидуальные предпочтения и стремления"
       },
       "item3": {
-        "title": "Tayyor sayohat yo'nalishlari",
-        "desc": "Bizning paketlarimiz qulaylik, sarguzasht va madaniy suvga cho'milishning uzluksiz uyg'unligini ta'minlaydi va ajoyib sayohat tajribasini ta'minlaydi.."
+        "title": "Экспертно созданные путешественные пакеты",
+        "desc": "Наши пакеты обеспечивают гармоничное сочетание комфорта, приключений и погружения в культуру, обеспечивая исключительный опыт путешествия."
+      }
+    },
+    "planning": {
+      "title": "Запланируйте свой мечтанный отдых",
+      "desc": "Позвольте нам позаботиться о каждой детали, когда вы отправляетесь в свое мечтанное путешествие. Будь то культурный отпуск, приключенческая экспедиция или спокойный отдых на пляже, мы гарантируем беспроблемный и незабываемый опыт путешествия.",
+      "link": "Начать планирование",
+      "planningList": {
+        "item1": {
+          "title": "Профессиональное руководство",
+          "desc": "Получите рекомендации от наших экспертов по путешествиям, которые страстно создают идеальный маршрут для вас. От предложений о направлениях до советов по путешествиям, мы здесь, чтобы ваше путешествие было необычайным"
+        },
+        "item2": {
+          "title": "Настроенные варианты",
+          "desc": "Настройте свой опыт путешествия с настраиваемыми вариантами, обеспечивая, чтобы каждый аспект вашего путешествия соответствовал вашим предпочтениям. Выбирайте места проживания, мероприятия и многое другое, чтобы соответствовать вашему уникальному стилю."
+        },
+        "item3": {
+          "title": "Поддержка 24/7",
+          "desc": "Ощутите уверенность с нашей круглосуточной поддержкой клиентов. Будь то вопросы во время планирования или необходимость помощи во время путешествия, наша команда всегда здесь, чтобы вас поддержать."
+        }
       }
     }
   },
   "pricingSection": {
-    "title": "Maxsus Takliflar",
-    "subtitle": "O'zingiz orzu qilgan ta'tilni tanlang",
+    "title": "Эксклюзивные предложения",
+    "subtitle": "Разблокируйте свой мечтательный отпуск",
     "pricingList": {
-      "subtitle": "Biz bilan bog'laning",
-      "text": "/individual",
-      "contactBtn": "Bog'lanish",
+      "subtitle": "Свяжитесь с нами",
+      "text": "/на заказ",
+      "contactBtn": "Получить предложение",
       "item1": {
-        "title": "Asosiy Sayohatchi",
-        "plan1": "Moslashtirilgan Sayohat Rejasi",
-        "plan2": "Shakllantirilgan Manzil Qo'llanmalar",
-        "plan3": "Mutaxassis Bilan Sayohat Muhokamasi",
-        "plan4": "24/7 Xizmat Ko'rsatish",
-        "plan5": "Moslashuvchan Narxlar"
+        "title": "Эссенциальный исследователь",
+        "plan1": "Индивидуальное планирование маршрута",
+        "plan2": "Персонализированные рекомендации по направлениям",
+        "plan3": "Экспертная консультация по путешествиям",
+        "plan4": "Круглосуточная поддержка",
+        "plan5": "Гибкая ценовая политика"
       },
       "item2": {
-        "title": "Premium Sayohatchi",
-        "plan1": "Luks Mekhmonxona Joylashuvi",
-        "plan2": "Maxsus Tajribalar",
-        "plan3": "Maxsus Yo'lboshlovchi",
-        "plan4": "Moslashtirilgan Sayohat Paketlari",
-        "plan5": "Muzokaralar uchun Narxlar"
+        "title": "Премиум Вояджер",
+        "plan1": "Роскошное проживание",
+        "plan2": "Эксклюзивные впечатления",
+        "plan3": "Частные экскурсии с гидом",
+        "plan4": "Индивидуальные туристические пакеты",
+        "plan5": "Ценообразование по договоренности"
       },
       "item3": {
-        "title": "Maksimal Sayohatchi",
-        "plan1": "VIP Sayohat Dasturi",
-        "plan2": "Maxsus Lyuks Tajribalar",
-        "plan3": "Moslashuvchan va Muzokaralar uchun Narxlar",
-        "plan4": "Ajoyib Taassurotlar"
+        "title": "Абсолютный странник",
+        "plan1": "VIP туристический консьерж",
+        "plan2": "Индивидуальные роскошные впечатления",
+        "plan3": "Эксклюзивный доступ к мероприятиям",
+        "plan4": "Гибкая и ценообразование по договоренности",
+        "plan5": "Пожизненная членская карта для путешествий"
       }
     }
   },
   "contactSection": {
-    "title": "Biz bilan o'z joyingizni band qiling!",
-    "subtitle": "Ta'tilingizni biz bilan o'tkazing",
-    "direktor": "Direktor: Nilufar Sadikova",
-    "bookingBtn": "Joy Band Qilish"
+    "title": "Забронируйте у нас",
+    "subtitle": "Планируйте свое путешествие с нами",
+    "direktor": "Директор: Нилуфар Садикова",
+    "bookingBtn": "Забронировать",
+    "contactSection": {
+      "title": "Make a reservation with us",
+      "subtitle": "Plan Your Journey with Us",
+      "direktor": "Director: Nilufar Sadikova",
+      "bookingBtn": "Make a reservation",
+      "bookingModal": {
+        "title": "Забронируйте поездку у нас",
+        "subtitle": "Давайте спланируем ваш следующий приключение",
+        "name": "Ваше имя...",
+        "email": "Ваш адрес электронной почты...",
+        "telNumber": "Ваш номер телефона...",
+        "aboutTrip": "TРасскажите нам о ваших планах по путешествиям...",
+        "booking": "Забронировать",
+        "contactUs": "Свяжитесь с нами",
+        "partner": "Ваш партнер по путешествиям",
+        "desc": "Планируйте свой мечтательный отпуск с нами. Наша команда готова помочь вам создать незабываемые впечатления от путешествий."
+      }
+    }
   },
   "footerSection": {
-    "desc": "Biz bilan dunyoni zabt eting. Sayohat tashkil qilishda eng yaxshi hamkoringiz",
+    "desc": "Исследуйте мир с Propartnyor JS, вашим надежным партнером в создании незабываемых путешествий. Мы верим в предоставление исключительных опытов путешествий, превосходящих ожидания.",
     "links": {
-      "title": "Foydali Havolalar",
-      "link1": "Blog",
-      "link2": "Biz bilan Aloqa",
-      "link3": "Biz Haqimizda",
-      "link4": "Maxfiylik Siyosati"
+      "title": "Полезные ссылки",
+      "link1": "Блог",
+      "link2": "Свяжитесь с нами",
+      "link3": "О нас",
+      "link4": "Политика конфиденциальности"
     },
     "contacts": {
-      "title": "Aloqa Ma'lumoti",
-      "desc": "Keyingi sayohatingizga tayyor bo'lib, shaxsiy sayohat yordam va so'rovnoma uchun biz bilan bog'laning.",
-      "contact1": "Telefon:",
+      "title": "Контактная информация",
+      "desc": "Готовы отправиться в следующее приключение? Свяжитесь с нами для персональной помощи и запросов по путешествиям.",
+      "contact1": "Телефон:",
       "contact2": "Email:",
-      "contact3": "Manzil:"
+      "contact3": "Адрес:",
+      "contactAddress": "Шайхонтохурский район, Джангохский мавзеси, 1-этаж, дом 37, город Ташкент"
     }
   }
 }

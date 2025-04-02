@@ -13,7 +13,7 @@
     "link": "Discover More",
     "bannerForm": {
       "name": "Your name...",
-      "location": "Type location...",
+      "telNumber": "Your phone...",
       "submitButton": "Make a reservation"
     }
   },
@@ -78,97 +78,132 @@
     }
   },
   "blogSection": {
-    "title": "Bizning manzillarimizni kashf eting",
-    "subtitle": "Dubay, Turkiya, Sharm El Sheyhni biz bilan kashf eting",
+    "title": "Explore Our Destinations",
+    "subtitle": "Discover Dubai, Turkey, and Sharm El Sheikh",
     "blogList": {
+      "linkLearnMore": "Learn More",
+      "LinkBookNow": "Book Now",
       "item1": {
-        "title": "Dubayda hashamatni his eting",
-        "subtitle": "Shahar va sahro uyg'unligi",
-        "desc": "Dubayning osmono'par binolari, hashamatli xaridlari va cho'l sarguzashtlarining boyligidan zavqlaning. Madaniyat va isrofgarchilikning ajoyib uyg'unligini taklif qiluvchi an'analar zamonaviylikka mos keladigan shaharni o'rganing."
+        "title": "Experience Luxury in Dubai",
+        "subtitle": "Historical Wonders and Breathtaking Landscapes",
+        "desc": "Indulge in the opulence of Dubai's skyscrapers, luxury shopping, and desert adventures. Explore a city where tradition meets modernity, offering an extraordinary blend of culture and extravagance."
       },
       "item2": {
-        "title": "Turkiya madaniyatini kashf eting",
+        "title": "Discover the Rich Culture of Turkey",
         "subtitle": "Tarixiy mo'jizalar va hayratlanarli manzaralar",
-        "desc": "Turkiyaning qadimiy xarobalardan tortib jonli bozorlarigacha bo'lgan jozibali tarixiga sho'ng'ing. Turkiyani ziyorat qilish kerak bo'lgan manzilga aylantiradigan go'zal manzaralar, mazali taomlar va samimiy mehmondo'stlikdan rohatlaning."
+        "desc": "Immerse yourself in Turkey's captivating history, from ancient ruins to vibrant markets. Enjoy the scenic landscapes, delicious cuisine, and warm hospitality that make Turkey a must-visit destination."
       },
       "item3": {
-        "title": "Sharm El-Sheykhda dam oling",
-        "subtitle": "Quyosh, dengiz va osoyishtalik",
-        "desc": "Sharm al-Shayxning ajoyib plyajlari va marjon riflariga boring. Tiniq suvlarga sho'ng'ing, hashamatli dam olish maskanlarida dam oling va ushbu tropik jannatda eng yaxshi dam olishni his qiling."
+        "title": "Relax in Sharm El Sheikh's Paradise",
+        "subtitle": "Sun, Sea, and Serenity",
+        "desc": "Escape to the stunning beaches and coral reefs of Sharm El Sheikh. Dive into the crystal-clear waters, unwind in luxurious resorts, and experience the ultimate relaxation in this tropical paradise."
       }
     }
   },
   "servicesSection": {
-    "title": "Bizning xizmatlar",
-    "subtitle": "Ishonch bilan kashf eting",
+    "title": "Our Services",
+    "subtitle": "Explore with Confidence",
     "servicesList": {
       "item1": {
-        "title": "Sayohat tajribalari",
-        "desc": "Sizning xohishingizga moslashtirilgan yuqori sifatli tajribalarni ta'minlab, puxta ishlab chiqilgan sayohat marshrutlarini kashf eting. Mutaxassislar tomonidan tayyorlangan paketlarimiz unutilmas sarguzashtlarni kafolatlaydi."
+        "title": "Curated Travel Experiences",
+        "desc": "Discover meticulously designed travel itineraries, ensuring high-quality experiences tailored to your preferences. Our expertly crafted packages guarantee unforgettable adventures"
       },
       "item2": {
         "title": "Eng yaxshi marshrutlar",
-        "desc": "Sizning noyob qiziqishlaringiz va istaklaringizga mos keladigan to'liq moslashtirilgan sayohat rejalaridan rohatlaning. Biz sizning shaxsiy imtiyozlaringiz va sayohat intilishlaringizni aks ettiruvchi sayohatlarni yaratishga ixtisoslashganmiz."
+        "desc": "Enjoy fully customizable travel plans that cater to your unique interests and desires. We specialize in creating journeys that reflect your individual preferences and travel aspirations."
       },
       "item3": {
-        "title": "Tayyor sayohat yo'nalishlari",
-        "desc": "Bizning paketlarimiz qulaylik, sarguzasht va madaniy suvga cho'milishning uzluksiz uyg'unligini ta'minlaydi va ajoyib sayohat tajribasini ta'minlaydi.."
+        "title": "Expertly Crafted Travel Packages",
+        "desc": "Our packages provide a seamless blend of comfort, adventure, and cultural immersion, ensuring an exceptional travel experience."
+      }
+    },
+    "planning": {
+      "title": "Plan Your Dream Getaway",
+      "desc": "Let us take care of every detail as you embark on your dream journey. Whether it's a cultural escape, an adventurous expedition, or a relaxing beach retreat, we ensure a hassle-free and unforgettable travel experience.",
+      "link": "Start Planning",
+      "planningList": {
+        "item1": {
+          "title": "Expert Guidance",
+          "desc": " Receive guidance from our travel experts who are passionate about creating the perfect itinerary for you. From destination suggestions to travel tips, we are here to make your journey extraordinary."
+        },
+        "item2": {
+          "title": "Customizable Options",
+          "desc": "Tailor your travel experience with customizable options, ensuring every aspect of your journey aligns with your preferences. Choose accommodations, activities, and more to suit your unique style."
+        },
+        "item3": {
+          "title": "24/7 Support",
+          "desc": "Experience peace of mind with our 24/7 customer support. Whether you have questions during the planning process or need assistance while traveling, our team is always here to support you."
+        }
       }
     }
   },
   "pricingSection": {
-    "title": "Maxsus Takliflar",
-    "subtitle": "O'zingiz orzu qilgan ta'tilni tanlang",
+    "title": "Exclusive Offers",
+    "subtitle": "Unlock Your Dream Vacation",
     "pricingList": {
-      "subtitle": "Biz bilan bog'laning",
-      "text": "/individual",
-      "contactBtn": "Bog'lanish",
+      "subtitle": "Contact us",
+      "text": "/customized",
+      "contactBtn": "Get a Quote",
       "item1": {
-        "title": "Asosiy Sayohatchi",
-        "plan1": "Moslashtirilgan Sayohat Rejasi",
-        "plan2": "Shakllantirilgan Manzil Qo'llanmalar",
-        "plan3": "Mutaxassis Bilan Sayohat Muhokamasi",
-        "plan4": "24/7 Xizmat Ko'rsatish",
-        "plan5": "Moslashuvchan Narxlar"
+        "title": "Essential Explorer",
+        "plan1": "Tailored Itinerary Planning",
+        "plan2": "Personalized Destination Recommendations",
+        "plan3": "Expert Travel Consultation",
+        "plan4": "24/7 Dedicated Support",
+        "plan5": "Flexible Pricing"
       },
       "item2": {
-        "title": "Premium Sayohatchi",
-        "plan1": "Luks Mekhmonxona Joylashuvi",
-        "plan2": "Maxsus Tajribalar",
-        "plan3": "Maxsus Yo'lboshlovchi",
-        "plan4": "Moslashtirilgan Sayohat Paketlari",
-        "plan5": "Muzokaralar uchun Narxlar"
+        "title": "Premium Voyager",
+        "plan1": "Luxury Accommodations",
+        "plan2": "Exclusive Experiences",
+        "plan3": "Private Guided Tours",
+        "plan4": "Customized Travel Packages",
+        "plan5": "Negotiable Pricing"
       },
       "item3": {
-        "title": "Maksimal Sayohatchi",
-        "plan1": "VIP Sayohat Dasturi",
-        "plan2": "Maxsus Lyuks Tajribalar",
-        "plan3": "Moslashuvchan va Muzokaralar uchun Narxlar",
-        "plan4": "Ajoyib Taassurotlar"
+        "title": "Ultimate Wanderer",
+        "plan1": "VIP Travel Concierge",
+        "plan2": "Bespoke Luxury Experiences",
+        "plan3": "Exclusive Access to Events",
+        "plan4": "Flexible and Negotiable Prices",
+        "plan5": "Lifetime Travel Membership"
       }
     }
   },
   "contactSection": {
-    "title": "Biz bilan o'z joyingizni band qiling!",
-    "subtitle": "Ta'tilingizni biz bilan o'tkazing",
-    "direktor": "Direktor: Nilufar Sadikova",
-    "bookingBtn": "Joy Band Qilish"
+    "title": "Make a reservation with us",
+    "subtitle": "Plan Your Journey with Us",
+    "direktor": "Director: Nilufar Sadikova",
+    "bookingBtn": "Make a reservation",
+    "bookingModal": {
+      "title": "Book your reservation now",
+      "subtitle": "Let's Plan Your Next Adventure",
+      "name": "Your name...",
+      "email": "Your email...",
+      "telNumber": "Your phone...",
+      "aboutTrip": "Tell us about your travel plans...",
+      "booking": "Make a reservation",
+      "contactUs": "Connect With Us",
+      "partner": "Your Travel Partner",
+      "desc": "Plan your dream vacation with us. Our team is ready to assist you in creating memorable travel experiences."
+    }
   },
   "footerSection": {
-    "desc": "Biz bilan dunyoni zabt eting. Sayohat tashkil qilishda eng yaxshi hamkoringiz",
+    "desc": "Explore the world with Propartnyor JS, your trusted partner in creating unforgettable journeys. We believe in delivering exceptional travel experiences that go beyond expectations.",
     "links": {
-      "title": "Foydali Havolalar",
+      "title": "Useful Links",
       "link1": "Blog",
-      "link2": "Biz bilan Aloqa",
-      "link3": "Biz Haqimizda",
-      "link4": "Maxfiylik Siyosati"
+      "link2": "Contact Us",
+      "link3": "About Us",
+      "link4": "Privacy Policy"
     },
     "contacts": {
-      "title": "Aloqa Ma'lumoti",
-      "desc": "Keyingi sayohatingizga tayyor bo'lib, shaxsiy sayohat yordam va so'rovnoma uchun biz bilan bog'laning.",
-      "contact1": "Telefon:",
+      "title": "Contact Information",
+      "desc": "Ready to embark on your next adventure? Contact us for personalized travel assistance and inquiries.",
+      "contact1": "Phone:",
       "contact2": "Email:",
-      "contact3": "Manzil:"
+      "contact3": "Address:",
+      "contactAddress": "Shaykhontohur district, Jangoh avenue, 1nd floor, house 37, Tashkent city"
     }
   }
 }

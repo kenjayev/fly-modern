@@ -26,10 +26,10 @@ export default function Blog() {
             </div>
             <div className="blog__item-footer">
               <a className="blog__item-link" href="tel:+998 97 442 03 08">
-                Ko'proq bilish
+                {t("blogSection.blogList.linkLearnMore")}
               </a>
               <a className="blog__item-link" href="#bron">
-                Band qilish
+                {t("blogSection.blogList.LinkBookNow")}
               </a>
             </div>
           </div>
@@ -50,10 +50,10 @@ export default function Blog() {
             </div>
             <div className="blog__item-footer">
               <a className="blog__item-link" href="tel:+998 97 442 03 08">
-                Ko'proq bilish
+                {t("blogSection.blogList.linkLearnMore")}
               </a>
               <a className="blog__item-link" href="#bron">
-                Band qilish
+                {t("blogSection.blogList.LinkBookNow")}
               </a>
             </div>
           </div>
@@ -74,10 +74,10 @@ export default function Blog() {
             </div>
             <div className="blog__item-footer">
               <a className="blog__item-link" href="tel:+998 97 442 03 08">
-                Ko'proq bilish
+                {t("blogSection.blogList.linkLearnMore")}
               </a>
               <a className="blog__item-link" href="#bron">
-                Band qilish
+                {t("blogSection.blogList.LinkBookNow")}
               </a>
             </div>
           </div>

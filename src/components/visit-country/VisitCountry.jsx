@@ -9,10 +9,10 @@ export default function VisitCountry() {
   return (
     <section className="visit-country">
       <div className="container">
-        <h4 className="visit-country__title">
-          {t("visitCountrySection.title")}
-        </h4>
         <div className="visit-country__list">
+          <h4 className="visit-country__title">
+            {t("visitCountrySection.title")}
+          </h4>
           {visitCountryDBArr &&
             visitCountryDBArr.map((country) => (
               <VisitCountryItem key={country.title} {...country} />
