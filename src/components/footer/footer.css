@@ -1,6 +1,7 @@
 .footer {
+  background-color: #f4f4f4;
   padding: 80px 0px 70px;
-  border-top: 1px solid rgb(221, 221, 221);
+  border-top: 1px solid #b1b1b1;
 }
 .footer__grid {
   display: flex;
@@ -109,5 +110,17 @@
 @media screen and (max-width: 550px) {
   .footer__grid {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 70px 0px 70px;
+  }
+  .footer__links-title,
+  .footer__contact-title,
+  .footer__logo {
+    margin-top: 0px;
+    margin-bottom: 15px;
   }
 }

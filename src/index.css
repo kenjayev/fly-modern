@@ -63,6 +63,12 @@ a {
 
 @media screen and (max-width: 480px) {
   .container {
-    padding: 0 10px;
+    padding: 0 20px;
+  }
+  .section__title {
+    font-size: 18px;
+  }
+  .section__subtitle {
+    font-size: 22px;
   }
 }
