@@ -11,7 +11,7 @@ const VisitCountryItem = ({ img_src, title, subtitle, description, id }) => {
       <div
         className="visit-country__item-img"
         data-aos={`fade-up-${id % 2 ? "right" : "left"}`}
-        data-aos-duration="800"
+        data-aos-duration="500"
         data-aos-delay="100"
       >
         <img src={img_src} alt={img_src} />
@@ -25,24 +25,24 @@ const VisitCountryItem = ({ img_src, title, subtitle, description, id }) => {
         <h5
           className="visit-country__item-title"
           data-aos={`fade-up-${id % 2 ? "left" : "right"}`}
-          data-aos-duration="800"
-          data-aos-delay="250"
+          data-aos-duration="450"
+          data-aos-delay="200"
         >
           {title}
         </h5>
         <p
           className="visit-country__item-subtitle"
           data-aos={`fade-up-${id % 2 ? "left" : "right"}`}
-          data-aos-duration="800"
-          data-aos-delay="400"
+          data-aos-duration="450"
+          data-aos-delay="350"
         >
           {subtitle}
         </p>
         <p
           className="visit-country__item-description"
           data-aos={`fade-up-${id % 2 ? "left" : "right"}`}
-          data-aos-duration="800"
-          data-aos-delay="550"
+          data-aos-duration="450"
+          data-aos-delay="500"
         >
           {description}
         </p>
