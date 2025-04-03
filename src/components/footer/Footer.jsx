@@ -19,9 +19,7 @@ export default function Footer() {
               className="footer__social-link"
               target="_blank"
               href="https://instagram.com/flymodern_travel"
-            >
-              <i class="fa fa-instagram"></i>
-            </a>
+            ></a>
           </div>
           {/*  */}
           <div className="footer__useful-links">

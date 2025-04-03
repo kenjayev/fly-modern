@@ -3,6 +3,7 @@ import Blog from "./blog/Blog";
 import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
 import Navbar from "./navbar/Navbar";
+import Services from "./our-services/Services";
 import PopularPlaces from "./popular-places/PopularPlaces";
 import Pricing from "./pricing/Pricing";
 import VideoContent from "./video-content/VideoContent";
@@ -16,6 +17,7 @@ function App() {
       <PopularPlaces />
       <VisitCountry />
       <Blog />
+      <Services />
       <VideoContent />
       <Pricing />
       <Contact />

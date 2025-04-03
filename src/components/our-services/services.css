@@ -1,0 +1,148 @@
+.services {
+  padding-top: 80px;
+}
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.services__item {
+  flex: 1;
+  max-width: 400px;
+  min-width: 300px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 45px 25px;
+}
+.services__item-img {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 62px;
+  height: 62px;
+}
+.services__item-title {
+  font-size: 19px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 15px;
+}
+.services__item-desc {
+  font-size: 13px;
+  color: #7a7a7a;
+  line-height: 24px;
+}
+/*  */
+
+.services__planning {
+  border-top: 1px solid #ddd;
+  padding: 60px 7.5% 0;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+.services__planning-heading {
+  font-size: 19px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 25px;
+}
+.services__planning-desc {
+  font-size: 13px;
+  color: #7a7a7a;
+  line-height: 24px;
+  margin-bottom: 38px;
+}
+.services__planning-accordion {
+  max-width: 380px;
+}
+
+/*  */
+
+.accordion {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.accordion__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background: #fff;
+  user-select: none;
+  transition: background 0.3s;
+}
+.accordion__header:hover {
+  background: #f9f9f9;
+}
+.accordion__title {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #232323;
+}
+.accordion__indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ddd;
+  transition: background 0.3s;
+}
+.accordion__body {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  padding: 0 20px;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: padding 200ms linear, opacity 200ms linear,
+    max-height 200ms linear;
+  will-change: opacity, max-height, padding;
+}
+.accordion__item:last-child .accordion__body {
+  border-bottom: 1px solid #ddd;
+}
+.accordion__body p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+.active .accordion__body {
+  opacity: 1;
+  padding: 10px 20px;
+  max-height: 12em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height, padding;
+}
+.active .accordion__indicator {
+  background: gold;
+}
+@media screen and (max-width: 920px) {
+  .services__planning {
+    padding: 60px 0 0;
+    gap: 20px;
+  }
+  .services__planning-accordion {
+    max-width: 365px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .services__planning-desc {
+    margin-bottom: 25px;
+  }
+  .services__planning {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .services__planning > div {
+    flex: 1;
+    max-width: none;
+    width: 100%;
+  }
+}
