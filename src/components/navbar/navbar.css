@@ -64,13 +64,21 @@
   position: relative;
   top: -20px;
 }
+.backdrop {
+  display: none;
+}
 .navbar__menu-icon {
   font-size: 30px;
 }
 
+@media screen and (max-width: 1024px) {
+  .navbar__menu-list {
+    gap: 20px;
+  }
+}
 @media screen and (max-width: 920px) {
   .navbar__menu-list {
-    gap: 12px;
+    gap: 10px;
   }
   .navbar__menu-link {
     padding: 0 10px;
