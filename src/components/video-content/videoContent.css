@@ -47,6 +47,6 @@
 }
 @media screen and (max-width: 480px) {
   .video__content {
-    height: 320px;
+    height: 290px;
   }
 }

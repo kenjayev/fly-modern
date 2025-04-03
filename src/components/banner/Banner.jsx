@@ -1,8 +1,47 @@
 import { useTranslation } from "react-i18next";
+import { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 import "./banner.css";
+import axios from "axios";
+import { useState } from "react";
 
 export default function Banner() {
+  const [isLoading, setIsLoading] = useState(false);
   const { t } = useTranslation();
+
+  const sendMessage = (e) => {
+    setIsLoading(true);
+    e.preventDefault();
+    const token = "7922668080:AAEUM61mCz7R_pAAtf8mSi00g3xHNXtnAoM";
+    const chat_ID = "617030856";
+    const url = `https://api.telegram.org/bot${token}/sendMessage`;
+
+    const firstName = e.target.firstname.value;
+    const telNumber = e.target.telNumber.value;
+
+    const text = `<b>Ismi:</b> ${firstName} \n <b>Tel:</b> <u>+${telNumber}</u>`;
+    axios({
+      url: url,
+      method: "POST",
+      data: {
+        chat_id: chat_ID,
+        text: text,
+        parse_mode: "HTML",
+      },
+    })
+      .then((res) => {
+        toast.success(t("successAlert"));
+      })
+      .catch((error) => {
+        toast.error(t("errorAlert"));
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
+
+    e.target.reset();
+  };
+
   return (
     <section className="banner">
       <div className="container">
@@ -17,7 +56,7 @@ export default function Banner() {
           </div>
           {/* ./banner__caption End */}
           <div className="banner__booking">
-            <form className="banner__booking-form">
+            <form className="banner__booking-form" onSubmit={sendMessage}>
               <div className="banner__booking-input-box">
                 <input
                   type="text"
@@ -30,11 +69,13 @@ export default function Banner() {
               </div>
               <div className="banner__booking-input-box">
                 <input
-                  type="text"
-                  name="location"
-                  id="location"
+                  type="number"
+                  name="tenNumber"
+                  id="telNumber"
                   className="banner__booking-input"
-                  placeholder={t("bannerSection.bannerForm.location")}
+                  placeholder={
+                    t("bannerSection.bannerForm.telNumber") + " +" + 998 + "..."
+                  }
                   required
                 />
               </div>
@@ -50,8 +91,15 @@ export default function Banner() {
                 />
               </div>
               <div className="banner__booking-button-box">
-                <button className="banner__booking-button">
-                  {t("bannerSection.bannerForm.submitButton")}
+                <button
+                  className={`banner__booking-button ${
+                    isLoading ? "disabled" : ""
+                  }`}
+                  disabled={isLoading}
+                >
+                  {isLoading
+                    ? t("loading")
+                    : t("bannerSection.bannerForm.submitButton")}
                 </button>
               </div>
             </form>

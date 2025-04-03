@@ -10,6 +10,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #2c343b;
+  overflow-x: hidden;
 }
 img {
   width: 100%;

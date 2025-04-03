@@ -79,6 +79,7 @@
   font-size: 15px;
 }
 .banner__booking-button {
+  cursor: pointer;
   width: 100%;
   height: 50px;
   background-color: #e1ac0c;
@@ -89,6 +90,10 @@
   letter-spacing: 0.6px;
   color: #fff;
   transition: all 0.5s;
+}
+button.disabled {
+  opacity: 0.8;
+  cursor: progress;
 }
 .banner__booking-button:hover {
   background-color: transparent;

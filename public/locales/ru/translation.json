@@ -1,4 +1,7 @@
 {
+  "loading": "Отправка...",
+  "successAlert": "Ваше сообщение отправлено!",
+  "errorAlert": "Что-то пошло не так",
   "headerSection": {
     "navList": {
       "link1": "Главная",

@@ -1,7 +1,10 @@
 {
+  "loading": "Yuborilmoqda...",
+  "successAlert": "Xabaringiz yuborildi!",
+  "errorAlert": "Nimadir xatolik bo'ldi",
   "headerSection": {
     "navList": {
-      "link1": "Asosiy sahifa",
+      "link1": "Asosiy sa hifa",
       "link2": "Biz haqimizda",
       "link3": "Turlar",
       "link4": "Kontaktlar"

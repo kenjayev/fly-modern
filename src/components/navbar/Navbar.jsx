@@ -10,11 +10,11 @@ export default function Navbar() {
   const { t, i18n } = useTranslation();
   const openMenu = () => {
     setIsOpenMenu(true);
-    document.body.style.overflow = "hidden";
+    document.body.style.overflowY = "hidden";
   };
   const closeMenu = () => {
     setIsOpenMenu(false);
-    document.body.style.overflow = "auto";
+    document.body.style.overflowY = "auto";
   };
 
   return (
@@ -30,22 +30,22 @@ export default function Navbar() {
           <nav className="navbar__menu">
             <ul className="navbar__menu-list">
               <li className="navbar__menu-item">
-                <a href="#" className="navbar__menu-link">
+                <a href="#" className="navbar__menu-link" onClick={closeMenu}>
                   {t("headerSection.navList.link1")}
                 </a>
               </li>
               <li className="navbar__menu-item">
-                <a href="#" className="navbar__menu-link">
+                <a href="#" className="navbar__menu-link" onClick={closeMenu}>
                   {t("headerSection.navList.link2")}
                 </a>
               </li>
               <li className="navbar__menu-item">
-                <a href="#" className="navbar__menu-link">
+                <a href="#" className="navbar__menu-link" onClick={closeMenu}>
                   {t("headerSection.navList.link3")}
                 </a>
               </li>
               <li className="navbar__menu-item">
-                <a href="#" className="navbar__menu-link">
+                <a href="#" className="navbar__menu-link" onClick={closeMenu}>
                   {t("headerSection.navList.link4")}
                 </a>
               </li>

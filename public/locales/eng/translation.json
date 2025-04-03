@@ -1,4 +1,7 @@
 {
+  "loading": "Sending...",
+  "successAlert": "Your message has been sent!",
+  "errorAlert": "Something went wrong",
   "headerSection": {
     "navList": {
       "link1": "Home",
