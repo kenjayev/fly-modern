@@ -1,21 +1,14 @@
 .popular-places {
   padding-top: 80px;
-  margin-bottom: 50px;
 }
 .popular-places__wrapper {
   padding: 0 15px;
   margin: 0 auto;
 }
-
-.popular-places__list {
-  display: flex;
-  /* flex-wrap: wrap; */
-  overflow-x: scroll;
-  gap: 20px;
-}
 .popular-places__item {
   min-height: 148px;
-  flex: 1;
+  max-height: 100%;
+  height: 100%;
   position: relative;
   overflow: hidden;
   border-radius: 5px;
@@ -36,7 +29,7 @@
   z-index: 0;
 }
 .popular-places__item img {
-  height: 100%;
+  min-height: 148px;
   transition: all 0.5s;
   z-index: 0;
 }
@@ -58,13 +51,23 @@
   font-size: 14px;
   font-weight: 600;
 }
-
-@media screen and (max-width: 1160px) {
-  .popular-places__item {
-    min-width: 250px;
-    max-width: 25%;
-    width: 100%;
-  }
+.swiper {
+  position: relative;
+  padding-bottom: 50px !important; /* Navigatsion nuqtalarni pastga tushirish */
+}
+.swiper-slide {
+  height: auto;
+}
+.swiper-pagination {
+  position: absolute !important;
+  bottom: 5px !important; /* Rasmdan tashqariga chiqarish */
+}
+.swiper-pagination > span {
+  width: 12px;
+  height: 12px;
+}
+.swiper-pagination > span.swiper-pagination-bullet-active {
+  background-color: #e1ac0c !important;
 }
 
 @media screen and (max-width: 480px) {
