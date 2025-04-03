@@ -41,6 +41,7 @@ export default function PopularPlaces() {
                   img_src={places?.img_src}
                   title={places?.title}
                   booking_count={places?.booking_count}
+                  id={index + 1}
                 />
               </SwiperSlide>
             ))}
