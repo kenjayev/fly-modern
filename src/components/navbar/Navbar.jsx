@@ -3,18 +3,13 @@ import { useTranslation } from "react-i18next";
 import { IoMenu } from "react-icons/io5";
 import { IoCloseSharp } from "react-icons/io5";
 import ChangeLang from "../change-lang/ChangeLang";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Navbar() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   const { t, i18n } = useTranslation();
 
-  useEffect(() => {
-    document.querySelector(".navbar__menu").style.display = "none";
-  }, []);
-
   const openMenu = () => {
-    document.querySelector(".navbar__menu").style.display = "flex";
     document.body.style.overflowY = "hidden";
     setIsOpenMenu(true);
   };
@@ -28,7 +23,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className={`navbar ${isOpenMenu ? "openMenu" : "closeMenu"}`}>
+    <div className={`navbar ${isOpenMenu ? "openMenu" : ""}`}>
       <div className="container">
         <div className="navbar__wrapper">
           <div className="navbar__logo-box">
