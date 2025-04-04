@@ -50,7 +50,7 @@ export default function Banner() {
             <div className="banner__top-liner"></div>
             <h3 className="banner__title">{t("bannerSection.title")}</h3>
             <p className="banner__subtitle">{t("bannerSection.desc")}</p>
-            <a href="#planID" className="banner__caption-button">
+            <a href="#popular__places" className="banner__caption-button">
               {t("bannerSection.link")}
             </a>
           </div>

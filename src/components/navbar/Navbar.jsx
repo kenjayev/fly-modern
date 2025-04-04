@@ -14,11 +14,7 @@ export default function Navbar() {
     setIsOpenMenu(true);
   };
   const closeMenu = () => {
-    setTimeout(() => {
-      document.querySelector(".navbar__menu").style.display = "none";
-    }, 500);
     document.body.style.overflowY = "auto";
-
     setIsOpenMenu(false);
   };
 
@@ -40,17 +36,29 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="navbar__menu-item">
-                <a href="#" className="navbar__menu-link" onClick={closeMenu}>
+                <a
+                  href="#about"
+                  className="navbar__menu-link"
+                  onClick={closeMenu}
+                >
                   {t("headerSection.navList.link2")}
                 </a>
               </li>
               <li className="navbar__menu-item">
-                <a href="#" className="navbar__menu-link" onClick={closeMenu}>
+                <a
+                  href="#tours"
+                  className="navbar__menu-link"
+                  onClick={closeMenu}
+                >
                   {t("headerSection.navList.link3")}
                 </a>
               </li>
               <li className="navbar__menu-item">
-                <a href="#" className="navbar__menu-link" onClick={closeMenu}>
+                <a
+                  href="#contact"
+                  className="navbar__menu-link"
+                  onClick={closeMenu}
+                >
                   {t("headerSection.navList.link4")}
                 </a>
               </li>

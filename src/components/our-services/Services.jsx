@@ -19,7 +19,7 @@ export default function Services() {
     },
   ];
   return (
-    <section className="services">
+    <section className="services" id="tours">
       <div className="container">
         <h4
           className="section__title"

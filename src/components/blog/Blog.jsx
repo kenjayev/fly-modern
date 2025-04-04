@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function Blog() {
   const { t } = useTranslation();
   return (
-    <section className="blog">
+    <section className="blog" id="about">
       <div className="container">
         <h4
           className="section__title"
@@ -44,7 +44,7 @@ export default function Blog() {
               </p>
             </div>
             <div className="blog__item-footer">
-              <a className="blog__item-link" href="tel:+998 97 442 03 08">
+              <a className="blog__item-link" href="tel:+998974420308">
                 {t("blogSection.blogList.linkLearnMore")}
               </a>
               <a className="blog__item-link" href="#bron">
@@ -73,7 +73,7 @@ export default function Blog() {
               </p>
             </div>
             <div className="blog__item-footer">
-              <a className="blog__item-link" href="tel:+998 97 442 03 08">
+              <a className="blog__item-link" href="tel:+998974420308">
                 {t("blogSection.blogList.linkLearnMore")}
               </a>
               <a className="blog__item-link" href="#bron">
@@ -102,7 +102,7 @@ export default function Blog() {
               </p>
             </div>
             <div className="blog__item-footer">
-              <a className="blog__item-link" href="tel:+998 97 442 03 08">
+              <a className="blog__item-link" href="tel:+998974420308">
                 {t("blogSection.blogList.linkLearnMore")}
               </a>
               <a className="blog__item-link" href="#bron">

@@ -19,6 +19,7 @@ function App() {
   return (
     <>
       <Toaster
+        style={{ background: "red" }}
         toastOptions={{
           style: {
             fontSize: "18px", // Shrift o‘lchamini kattalashtirish

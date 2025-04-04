@@ -13,7 +13,7 @@ export default function PopularPlaces() {
   const { t } = useTranslation();
   const popularPlacesDBArr = popularPlacesDB();
   return (
-    <section className="popular-places">
+    <section className="popular-places" id="popular__places">
       <div className="popular-places__wrapper">
         <h4
           className="section__title"

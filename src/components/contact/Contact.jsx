@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function Contact() {
   const { t } = useTranslation();
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <div className="map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191770.76997450867!2d69.285482!3d41.321517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8d0a3eff6793%3A0x374f8cd599c1c8fa!2sYagona%20Darcha%20Shaykhontokhur%20tumani!5e0!3m2!1sen!2sus!4v1743512672591!5m2!1sen!2sus"
@@ -18,6 +18,7 @@ export default function Contact() {
       </div>
       <div className="container">
         <div
+          id="bron"
           className="contact__booking"
           data-aos="zoom-in-up"
           data-aos-duration={1200}
