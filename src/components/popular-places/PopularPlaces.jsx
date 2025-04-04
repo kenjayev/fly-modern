@@ -15,8 +15,19 @@ export default function PopularPlaces() {
   return (
     <section className="popular-places">
       <div className="popular-places__wrapper">
-        <h4 className="section__title">{t("popularPlacesSection.title")}</h4>
-        <p className="section__subtitle">
+        <h4
+          className="section__title"
+          data-aos="fade-up"
+          data-aos-duration="400"
+        >
+          {t("popularPlacesSection.title")}
+        </h4>
+        <p
+          className="section__subtitle"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-delay="100"
+        >
           {t("popularPlacesSection.subtitle")}
         </p>
         <Swiper

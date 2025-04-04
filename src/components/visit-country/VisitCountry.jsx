@@ -10,7 +10,11 @@ export default function VisitCountry() {
     <section className="visit-country">
       <div className="container">
         <div className="visit-country__list">
-          <h4 className="visit-country__title">
+          <h4
+            className="visit-country__title"
+            data-aos="fade-up"
+            data-aos-duration="400"
+          >
             {t("visitCountrySection.title")}
           </h4>
           {visitCountryDBArr &&

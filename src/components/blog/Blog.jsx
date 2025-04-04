@@ -6,10 +6,29 @@ export default function Blog() {
   return (
     <section className="blog">
       <div className="container">
-        <h4 className="section__title">{t("blogSection.title")}</h4>
-        <p className="section__subtitle">{t("blogSection.subtitle")}</p>
+        <h4
+          className="section__title"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="100"
+        >
+          {t("blogSection.title")}
+        </h4>
+        <p
+          className="section__subtitle"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="200"
+        >
+          {t("blogSection.subtitle")}
+        </p>
         <div className="blog__list">
-          <div className="blog__item">
+          <div
+            className="blog__item"
+            data-aos="zoom-in-up"
+            data-aos-duration={1200}
+            data-aos-delay={50}
+          >
             <div className="blog__item-img">
               <img src="/img/blog__dubai.jpg" alt="" />
             </div>
@@ -33,7 +52,12 @@ export default function Blog() {
               </a>
             </div>
           </div>
-          <div className="blog__item">
+          <div
+            className="blog__item"
+            data-aos="zoom-in-up"
+            data-aos-duration={1200}
+            data-aos-delay={100}
+          >
             <div className="blog__item-img">
               <img src="/img/blog__turkiya.jpg" alt="" />
             </div>
@@ -57,7 +81,12 @@ export default function Blog() {
               </a>
             </div>
           </div>
-          <div className="blog__item">
+          <div
+            className="blog__item"
+            data-aos="zoom-in-up"
+            data-aos-duration={1200}
+            data-aos-delay={150}
+          >
             <div className="blog__item-img">
               <img src="/img/blog__misr.jpg" alt="" />
             </div>

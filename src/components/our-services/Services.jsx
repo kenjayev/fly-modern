@@ -21,11 +21,30 @@ export default function Services() {
   return (
     <section className="services">
       <div className="container">
-        <h4 className="section__title">{t("servicesSection.title")}</h4>
-        <p className="section__subtitle">{t("servicesSection.subtitle")}</p>
+        <h4
+          className="section__title"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="100"
+        >
+          {t("servicesSection.title")}
+        </h4>
+        <p
+          className="section__subtitle"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="200"
+        >
+          {t("servicesSection.subtitle")}
+        </p>
         <div className="services__list">
           {/*  */}
-          <div className="services__item">
+          <div
+            className="services__item"
+            data-aos="zoom-in-up"
+            data-aos-duration={1200}
+            data-aos-delay={50}
+          >
             <div className="services__item-img">
               <img src="/img/icon/service_icon_1.png" alt="icon| service-1" />
             </div>
@@ -37,7 +56,12 @@ export default function Services() {
             </p>
           </div>
           {/*  */}
-          <div className="services__item">
+          <div
+            className="services__item"
+            data-aos="zoom-in-up"
+            data-aos-duration={1200}
+            data-aos-delay={100}
+          >
             <div className="services__item-img">
               <img src="/img/icon/service_icon_2.png" alt="icon| service-2" />
             </div>
@@ -49,7 +73,12 @@ export default function Services() {
             </p>
           </div>
           {/*  */}
-          <div className="services__item">
+          <div
+            className="services__item"
+            data-aos="zoom-in-up"
+            data-aos-duration={1200}
+            data-aos-delay={150}
+          >
             <div className="services__item-img">
               <img src="/img/icon/service_icon_3.png" alt="icon| service-3" />
             </div>
@@ -64,17 +93,38 @@ export default function Services() {
         </div>
         <div className="services__planning">
           <div className="services__planning-text">
-            <h5 className="services__planning-heading">
+            <h5
+              className="services__planning-heading"
+              data-aos={`fade-up-right`}
+              data-aos-duration="700"
+              data-aos-delay="250"
+            >
               {t("servicesSection.planning.title")}
             </h5>
-            <p className="services__planning-desc">
+            <p
+              className="services__planning-desc"
+              data-aos={`fade-up-right`}
+              data-aos-duration="700"
+              data-aos-delay="400"
+            >
               {t("servicesSection.planning.desc")}
             </p>
-            <a href="#" className="btn services__planning-link">
+            <a
+              href="#"
+              className="btn services__planning-link"
+              data-aos={`fade-up-right`}
+              data-aos-duration="700"
+              data-aos-delay="500"
+            >
               {t("servicesSection.planning.link")}
             </a>
           </div>
-          <div className="services__planning-accordion">
+          <div
+            className="services__planning-accordion"
+            data-aos={`fade-up-left`}
+            data-aos-duration="700"
+            data-aos-delay="200"
+          >
             <Accordion accordionData={accordionData} />
           </div>
         </div>

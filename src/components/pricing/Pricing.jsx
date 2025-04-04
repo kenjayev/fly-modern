@@ -6,10 +6,29 @@ export default function Pricing() {
   return (
     <section className="pricing">
       <div className="container">
-        <h4 className="section__title">{t("pricingSection.title")}</h4>
-        <p className="section__subtitle">{t("pricingSection.subtitle")}</p>
+        <h4
+          className="section__title"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="100"
+        >
+          {t("pricingSection.title")}
+        </h4>
+        <p
+          className="section__subtitle"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="200"
+        >
+          {t("pricingSection.subtitle")}
+        </p>
         <div className="pricing__list">
-          <div className="pricing__item">
+          <div
+            className="pricing__item"
+            data-aos="zoom-in-up"
+            data-aos-duration={1200}
+            data-aos-delay={50}
+          >
             <div className="pricing__main">
               <div className="pricing__header">
                 <h5 className="pricing__title">
@@ -48,7 +67,12 @@ export default function Pricing() {
           </div>
           {/* End of Pricing 1 item */}
 
-          <div className="pricing__item">
+          <div
+            className="pricing__item"
+            data-aos="zoom-in-up"
+            data-aos-duration={1200}
+            data-aos-delay={100}
+          >
             <div className="pricing__main">
               <div className="pricing__header">
                 <h5 className="pricing__title">
@@ -87,7 +111,12 @@ export default function Pricing() {
           </div>
           {/* End of Pricing 2 item */}
 
-          <div className="pricing__item">
+          <div
+            className="pricing__item"
+            data-aos="zoom-in-up"
+            data-aos-duration={1200}
+            data-aos-delay={150}
+          >
             <div className="pricing__main">
               <div className="pricing__header">
                 <h5 className="pricing__title">

@@ -17,7 +17,12 @@ export default function Contact() {
         ></iframe>
       </div>
       <div className="container">
-        <div className="contact__booking">
+        <div
+          className="contact__booking"
+          data-aos="zoom-in-up"
+          data-aos-duration={1200}
+          data-aos-delay={50}
+        >
           <h4 className="section__title">{t("contactSection.title")}</h4>
           <p className="section__subtitle">{t("contactSection.subtitle")}</p>
           <p className="contact__direktor-name">

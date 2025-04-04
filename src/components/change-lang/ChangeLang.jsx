@@ -3,10 +3,7 @@ import { BiSolidDownArrow } from "react-icons/bi";
 import "./changeLang.css";
 
 export default function ChangeLang() {
-  const currentLang =
-    localStorage.getItem("i18nextLng") == "uz-UZ"
-      ? "uz"
-      : localStorage.getItem("i18nextLng");
+  const currentLang = localStorage.getItem("fly-modern-lng");
   const { t, i18n } = useTranslation();
 
   const changeLang = (lng) => {
