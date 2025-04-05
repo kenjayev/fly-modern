@@ -1,8 +1,6 @@
 import { Toaster } from "react-hot-toast";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
-AOS.init();
+import "aos/dist/aos.css"; // You can also use <link> for style
 
 import Banner from "./banner/Banner";
 import Blog from "./blog/Blog";
@@ -14,8 +12,14 @@ import PopularPlaces from "./popular-places/PopularPlaces";
 import Pricing from "./pricing/Pricing";
 import VideoContent from "./video-content/VideoContent";
 import VisitCountry from "./visit-country/VisitCountry";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      once: true, // Faqat bir marta ishlashi uchun
+    });
+  });
   return (
     <>
       <Toaster

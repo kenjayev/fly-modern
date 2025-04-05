@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function Blog() {
   const { t } = useTranslation();
   return (
-    <section className="blog" id="about">
+    <section className="blog" id="blog">
       <div className="container">
         <h4
           className="section__title"

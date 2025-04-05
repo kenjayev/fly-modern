@@ -22,11 +22,11 @@ export default function Navbar() {
     <div className={`navbar ${isOpenMenu ? "openMenu" : ""}`}>
       <div className="container">
         <div className="navbar__wrapper">
-          <div className="navbar__logo-box">
+          <a href="#" className="navbar__logo-box">
             <img src="/img/logo.png" alt="" className="navbar__logo-img" />
             <h2>Fly modern</h2>
             <h5>AVIAKASSA VISA TOURISM</h5>
-          </div>
+          </a>
 
           <nav className="navbar__menu">
             <ul className="navbar__menu-list">

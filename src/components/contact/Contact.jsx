@@ -36,9 +36,9 @@ export default function Contact() {
           >
             +998951270090
           </a>
-          <button className="contact__modal-btn btn">
+          <a href="tel:+998974420308" className="contact__modal-btn btn">
             {t("contactSection.bookingBtn")}
-          </button>
+          </a>
         </div>
       </div>
     </section>

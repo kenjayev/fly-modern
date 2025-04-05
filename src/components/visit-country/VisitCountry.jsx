@@ -7,7 +7,7 @@ export default function VisitCountry() {
   const { t } = useTranslation();
   const visitCountryDBArr = visitCountryDB();
   return (
-    <section className="visit-country">
+    <section className="visit-country" id="about">
       <div className="container">
         <div className="visit-country__list">
           <h4

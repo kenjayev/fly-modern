@@ -28,17 +28,17 @@ export default function Footer() {
             </h5>
             <ul className="footer__links-list">
               <li className="footer__links-item">
-                <a href="#" className="footer__links-link">
+                <a href="#blog" className="footer__links-link">
                   {t("footerSection.links.link1")}
                 </a>
               </li>
               <li className="footer__links-item">
-                <a href="#" className="footer__links-link">
+                <a href="#contact" className="footer__links-link">
                   {t("footerSection.links.link2")}
                 </a>
               </li>
               <li className="footer__links-item">
-                <a href="#" className="footer__links-link">
+                <a href="#about" className="footer__links-link">
                   {t("footerSection.links.link3")}
                 </a>
               </li>
@@ -81,7 +81,7 @@ export default function Footer() {
                 <span className="footer__contact-link-info">
                   {t("footerSection.contacts.contact3")}
                 </span>
-                <a href="#" className="footer__contact-link">
+                <a href="#contact" className="footer__contact-link">
                   {t("footerSection.contacts.contactAddress")}
                 </a>
               </li>

@@ -110,7 +110,7 @@ export default function Services() {
               {t("servicesSection.planning.desc")}
             </p>
             <a
-              href="#"
+              href="tel:+998974420308"
               className="btn services__planning-link"
               data-aos={`fade-up-right`}
               data-aos-duration="700"

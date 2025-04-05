@@ -12,6 +12,7 @@
 }
 .navbar__logo-img {
   width: 100px;
+  height: 53px;
   object-fit: contain;
 }
 .navbar__logo-box h2 {
@@ -112,7 +113,7 @@
     justify-content: space-between;
     z-index: 20;
     /* transform: translateX(100%); */
-    transition: max-width 0.5s, padding 0.001s;
+    transition: max-width 0.35s, padding 0.001s;
   }
   .openMenu .navbar__menu {
     padding: 60px 20px;
