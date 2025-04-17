@@ -3,7 +3,7 @@ import Backend from "i18next-http-backend";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-const currentLang = localStorage.getItem("i18nextLng") || "uz";
+const currentLang = localStorage.getItem("fly-modern-lng") || "uz";
 
 i18n
   .use(Backend)
