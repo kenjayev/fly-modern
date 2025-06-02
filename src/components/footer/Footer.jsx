@@ -10,7 +10,7 @@ export default function Footer() {
           {/*  */}
           <div className="footer__about-us">
             <div className="footer__logo">
-              <img src="/img/logo.png" alt="footer logo" />
+              <img loading="lazy" src="/img/logo.png" alt="footer logo" />
               <h2>Fly modern</h2>
               <h5>AVIAKASSA VISA TOURISM</h5>
             </div>

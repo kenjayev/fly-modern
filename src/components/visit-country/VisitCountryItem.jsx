@@ -11,7 +11,7 @@ const VisitCountryItem = ({ img_src, title, subtitle, description, id }) => {
         data-aos-duration="700"
         data-aos-delay="100"
       >
-        <img src={img_src} alt={img_src} />
+        <img loading="lazy" src={img_src} alt={img_src} />
       </div>
       <div className="visit-country__item-text">
         <h5

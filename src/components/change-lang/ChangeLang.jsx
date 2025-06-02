@@ -13,13 +13,13 @@ export default function ChangeLang() {
   return (
     <div className="change-lang">
       <button className="change-lang__btn--active">
-        <img src={`/img/icon/${currentLang}.png`} alt="" />
+        <img loading="lazy" src={`/img/icon/${currentLang}.png`} alt="" />
         <BiSolidDownArrow className="change-lang__icon" />
       </button>
       <div className="change-lang__sub-list">
         {currentLang !== "uz" && (
           <button className="change-lang__btn" onClick={() => changeLang("uz")}>
-            <img src={`/img/icon/uz.png`} alt="uz-lang-icon" />
+            <img loading="lazy" src={`/img/icon/uz.png`} alt="uz-lang-icon" />
           </button>
         )}
         {currentLang !== "eng" && (
@@ -33,7 +33,7 @@ export default function ChangeLang() {
         )}
         {currentLang !== "ru" && (
           <button className="change-lang__btn" onClick={() => changeLang("ru")}>
-            <img src={`/img/icon/ru.png`} alt="ru-lang-icon" />
+            <img loading="lazy" src={`/img/icon/ru.png`} alt="ru-lang-icon" />
           </button>
         )}
       </div>
@@ -42,14 +42,14 @@ export default function ChangeLang() {
 }
 
 // {/* <a href="#" className="navbar__multilingual-link">
-// <img src="/img/icon/uz.png" alt="" />
+// <img loading="lazy" src="/img/icon/uz.png" alt="" />
 // <span className="downarrow"></span>
 // </a>
 // <ul className="sub-menu">
 // <li>
-//   <a href="./eng.html">{/* <img src="" alt="" /> */}</a>
+//   <a href="./eng.html">{/* <img loading="lazy" src="" alt="" /> */}</a>
 // </li>
 // <li>
-//   <a href="./index.html">{/* <img src="" alt="" /> */}</a>
+//   <a href="./index.html">{/* <img loading="lazy" src="" alt="" /> */}</a>
 // </li>
 // </ul> */}

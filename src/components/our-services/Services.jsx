@@ -46,7 +46,11 @@ export default function Services() {
             data-aos-delay={50}
           >
             <div className="services__item-img">
-              <img src="/img/icon/service_icon_1.png" alt="icon| service-1" />
+              <img
+                loading="lazy"
+                src="/img/icon/service_icon_1.png"
+                alt="icon| service-1"
+              />
             </div>
             <h5 className="services__item-title">
               {t("servicesSection.servicesList.item1.title")}
@@ -63,7 +67,11 @@ export default function Services() {
             data-aos-delay={100}
           >
             <div className="services__item-img">
-              <img src="/img/icon/service_icon_2.png" alt="icon| service-2" />
+              <img
+                loading="lazy"
+                src="/img/icon/service_icon_2.png"
+                alt="icon| service-2"
+              />
             </div>
             <h5 className="services__item-title">
               {t("servicesSection.servicesList.item2.title")}
@@ -80,7 +88,11 @@ export default function Services() {
             data-aos-delay={150}
           >
             <div className="services__item-img">
-              <img src="/img/icon/service_icon_3.png" alt="icon| service-3" />
+              <img
+                loading="lazy"
+                src="/img/icon/service_icon_3.png"
+                alt="icon| service-3"
+              />
             </div>
             <h5 className="services__item-title">
               {t("servicesSection.servicesList.item3.title")}

@@ -30,7 +30,7 @@ export default function Blog() {
             data-aos-delay={50}
           >
             <div className="blog__item-img">
-              <img src="/img/blog__dubai.jpg" alt="" />
+              <img loading="lazy" src="/img/blog__dubai.jpg" alt="" />
             </div>
             <div className="blog__item-text">
               <h5 className="blog__item-title">
@@ -59,7 +59,7 @@ export default function Blog() {
             data-aos-delay={100}
           >
             <div className="blog__item-img">
-              <img src="/img/blog__turkiya.jpg" alt="" />
+              <img loading="lazy" src="/img/blog__turkiya.jpg" alt="" />
             </div>
             <div className="blog__item-text">
               <h5 className="blog__item-title">
@@ -88,7 +88,7 @@ export default function Blog() {
             data-aos-delay={150}
           >
             <div className="blog__item-img">
-              <img src="/img/blog__misr.jpg" alt="" />
+              <img loading="lazy" src="/img/blog__misr.jpg" alt="" />
             </div>
             <div className="blog__item-text">
               <h5 className="blog__item-title">
